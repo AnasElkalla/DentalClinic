@@ -315,7 +315,7 @@ i {
   border-radius: 50%;
   border: 10px solid #fb7813;
   box-shadow: 5px 5px 10px black;
-  background-image: url(../pics/screened.jpg);
+  background-image: url(pics/screened.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -335,7 +335,7 @@ object {
   width: 50rem;
   height: 50rem;
   border-radius: 50%;
-  background-image: url(../pics/clinic.jpg);
+  background-image: url(pics/clinic.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
