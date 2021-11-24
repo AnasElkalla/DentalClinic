@@ -19,6 +19,12 @@ body {
   padding: 0;
   font-size: 12px;
 }
+a,
+a:hover,
+a:focus {
+  display: inline-block;
+  text-decoration: none;
+}
 .header {
   height: 5%;
   display: flex;
@@ -40,13 +46,17 @@ body {
   padding: 0;
   vertical-align: middle;
 }
-.navItem {
+.navItem,
+a {
+  color: white;
+
   display: inline-block;
   padding-right: 2rem;
   font-size: 3rem;
   text-shadow: 1px 1px 1px black;
 }
-.navItem:hover {
+.navItem:hover,
+a:hover {
   color: #fb7813;
 }
 .logo img {
@@ -88,7 +98,7 @@ main {
   font-weight: bold;
   color: white;
   position: relative;
-  left: 60rem;
+  left: 55%;
   bottom: 35rem;
   text-shadow: 1px 1px 1px black;
 }
@@ -305,7 +315,7 @@ i {
   border-radius: 50%;
   border: 10px solid #fb7813;
   box-shadow: 5px 5px 10px black;
-  background-image: url(pics/screened.jpg);
+  background-image: url(../pics/screened.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -325,7 +335,7 @@ object {
   width: 50rem;
   height: 50rem;
   border-radius: 50%;
-  background-image: url(pics/clinic.jpg);
+  background-image: url(../pics/clinic.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
