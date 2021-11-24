@@ -325,7 +325,7 @@ object {
   width: 50rem;
   height: 50rem;
   border-radius: 50%;
-  background-image: url(../pics/clinic.jpg);
+  background-image: url(pics/clinic.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
