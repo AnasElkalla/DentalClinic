@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 100vw;
+}
+.panel {
+  width: 10%;
+  height: 600px;
+  display: inline-block;
+  border-radius: 24px;
+  margin: 0 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.active {
+  width: 100%;
+  transition: 3s ease-in-out;
+}
