@@ -19,3 +19,35 @@
   width: 100%;
   transition: 3s ease-in-out;
 }
+.footer1 .circle {
+  border-radius: 50%;
+  border: 10px solid #fb7813;
+  box-shadow: 5px 5px 10px black;
+  background-image: url(../pics/screened.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20rem;
+  height: 20rem;
+  z-index: 100;
+  position: relative;
+  left: 50rem;
+  bottom: 10rem;
+}
+object {
+  height: 0;
+  position: relative;
+  bottom: 100vh;
+}
+.clinic {
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50%;
+  background-image: url(../pics/clinic.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 50rem;
+  left: 50%;
+}
